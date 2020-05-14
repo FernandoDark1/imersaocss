@@ -112,7 +112,7 @@ body{
 @media  (min-width: 880px) {
   .portifolio .grid {
   grid-template-columns: repeat(3, 240px);
-height: calc{100vh -4em- 48px -1.5em};
+height: calc (100vh -4em- 48px -1.5em);
 }
 }
 
