@@ -84,11 +84,13 @@ body{
     font-family: 'Gorditas', cursive;
   }
 
+  .contato,
 .portifolio {
     padding: 2em;
-    height: 100vh;
+    min-height: 100vh;
   }
 
+  .contato h2,
   .portifolio h2 {
     font-family: 'Gorditas', cursive;
     color: whitesmoke;
@@ -133,4 +135,13 @@ height: calc (100vh -4em- 48px -1.5em);
     height: auto;
     width: 100%;
   }
+  }
+
+  .contato a {
+    color: whitesmoke;
+    font-size: 7em;
+  }
+
+  .contato a:hover {
+    text-decoration: none;
   }
