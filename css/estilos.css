@@ -78,10 +78,9 @@ body{
   }
   
   .titulo {
-    transform: scale(0.2) translateY(50vh);
-    opacity: 0;
-  }
   
+  }
+
   .site-title{
     text-align: center;
     color: whitesmoke;
