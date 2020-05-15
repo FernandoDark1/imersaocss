@@ -40,16 +40,18 @@ body{
     align-items: center;
   }
 
-  .menu{
+  .menu {
     background-color:rgb(174, 241, 250);
     position: fixed;
     width: 100vw;
     top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
   }
   
   .menu {
-    display: flex;
-    justify-content: space-around;
+    
   }
   
   .menu li{
@@ -77,10 +79,6 @@ body{
     text-decoration: underline;
   }
   
-  .titulo {
-  
-  }
-
   .site-title{
     text-align: center;
     color: whitesmoke;
