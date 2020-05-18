@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
     background: blueviolet;
     background-size: auto 100vh;
   height: 100vh;
@@ -14,21 +14,21 @@ body{
 
   /*se a tela tiver pelo menos 400 pixels vai carregar estes estilos*/
   @media (min-width: 400px) {
-    body{
+    body {
   font-size: 14px;
 }
   }
 
   /*breakpoint*/
   @media (min-width: 600px) {
-    body{
+    body {
   font-size: 18px;
 }
   }
 
   /*breakpoint*/
   @media (min-width: 1920px) {
-    body{
+    body {
   font-size: 24px;
 }
   }
@@ -50,11 +50,7 @@ body{
     justify-content: space-around;
   }
   
-  .menu {
-    
-  }
-  
-  .menu li{
+  .menu li {
     list-style: none;
   }
 
@@ -65,21 +61,21 @@ body{
   }
 
   .menu a:active,
-  .menu a:hover{
+  .menu a:hover {
     background-color: teal;
     color: white;
   }
   
-  a{
+  a {
     color:teal;
     text-decoration: none;
   }
   
-  a:hover{
+  a:hover {
     text-decoration: underline;
   }
   
-  .site-title{
+  .site-title {
     text-align: center;
     color: whitesmoke;
     font-family: 'Press Start 2P', cursive;
@@ -93,18 +89,41 @@ body{
     font-family: 'Gorditas', cursive;
   }
 
+  .sobre,
   .contato,
-.portifolio {
+  .portifolio {
     padding: 2em;
     min-height: 100vh;
   }
 
+  @media ( min-width: 1200px) {
+    .sobre,
+    .contato,
+    .portifolio {
+      max-width: 1200px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  .sobre h2,
   .contato h2,
   .portifolio h2 {
     font-family: 'Gorditas', cursive;
     color: whitesmoke;
     margin-bottom: 1.3em;
     font-size: 2em;
+  }
+
+  .sobre p {
+    color: white;
+    margin-bottom: 1em;
+    text-align: center;
+    text-indent: 1em;
+  }
+
+  .sobre a {
+    color:blue;
   }
   
   .portifolio .grid {
@@ -157,7 +176,7 @@ height: calc (100vh -4em- 48px -1.5em);
 
   .contato a {
     color: whitesmoke;
-    font-size: 5em;
+    font-size: 4em;
     transition: text-shadow 2s;
   }
 
