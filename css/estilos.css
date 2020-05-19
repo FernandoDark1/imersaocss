@@ -79,14 +79,14 @@ body {
     text-align: center;
     color: whitesmoke;
     font-family: 'Press Start 2P', cursive;
-    line-height: 1.5em;
+    line-height: 2em;
   }
 
   .site-subtitle {
-   text-align: center;
     color: orange;
     font-style: italic;
     font-family: 'Gorditas', cursive;
+    text-align: center;
   }
 
   .sobre,
@@ -123,8 +123,18 @@ body {
   }
 
   .sobre a {
-    color:blue;
+    color:rgb(157, 250, 230);
   }
+
+.sobre .avatar {
+  float: right;
+  margin-left: 2em;
+}
+
+.sobre .avatar img {
+  border-radius: none;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
   
   .portifolio .grid {
    display: grid;
