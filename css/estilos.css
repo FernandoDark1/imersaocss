@@ -135,6 +135,20 @@ body {
   border-radius: none;
   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
+
+@media  (min-width: 400px) {
+.sobre .avatar img {
+  height: 180px;
+  width: 260px;
+}
+}
+
+@media  (min-width: 1200px) {
+  .sobre .avatar img {
+    height: auto;
+    width: 100%;
+  }
+  }
   
   .portifolio .grid {
    display: grid;
