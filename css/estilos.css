@@ -141,9 +141,8 @@ body {
 
 @media  (max-width: 600px) {
 .sobre .avatar img {
-  height: 180px;
+  height: 260px;
   width: 260px;
-  text-align: center;
 }
 }
   
@@ -173,7 +172,7 @@ height: calc (100vh -4em- 48px -1.5em);
 
   .img-portfolio {
     height: 180px;
-    width: 250px;
+    width: 100%;
     object-fit: cover;
     object-position: left bottom;
     border-radius: 5px;
@@ -182,6 +181,10 @@ height: calc (100vh -4em- 48px -1.5em);
 
   .img-portfolio:hover {
     transform: scale(1.2)
+  }
+
+  .flip-card {
+    perspective: 500px;
   }
 
   @media (min-width: 1200px){
@@ -205,4 +208,11 @@ height: calc (100vh -4em- 48px -1.5em);
   .contato a:hover {
     text-decoration: none;
     text-shadow: 2px 2px 20px rgba(255,255,255,1);
+  }
+
+  .rodapé {
+    color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.6em;
+    text-align: center;
   }
