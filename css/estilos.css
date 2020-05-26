@@ -187,11 +187,17 @@ height: calc (100vh -4em- 48px -1.5em);
     perspective: 500px;
   }
 
+  @media (min-width 400px) {
+    .img-portfolio {
+      height: 240px;
+      width: 360px;
+    }
+  }
+
   @media (min-width: 1200px){
   .img-portfolio {
     height: auto;
     width: 100%;
-  }
   }
 
   .contato .icons {
