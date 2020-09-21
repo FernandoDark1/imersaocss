@@ -6,10 +6,10 @@
 }
 
 body {
-    background: blueviolet;
-    background-size: auto 100vh;
+  background: blueviolet;
+  background-size: auto 100vh;
   height: 100vh;
-  font-family: 'Inconsolata', monospace; 
+  font-family: 'Cabin', sans-serif; 
   }
 
   /*se a tela tiver pelo menos 400 pixels vai carregar estes estilos*/
@@ -46,9 +46,12 @@ body {
     width: 100vw;
     top: 0;
     z-index: 1;
+    
+  }
+.menu ul {
     display: flex;
     justify-content: space-around;
-  }
+}
   
   .menu li {
     list-style: none;
@@ -79,6 +82,7 @@ body {
     text-align: center;
     color: whitesmoke;
     font-family: 'Press Start 2P', cursive;
+    font-size: 3.2em;
     line-height: 2em;
   }
 
@@ -86,8 +90,9 @@ body {
     color: orange;
     font-style: italic;
     font-family: 'Gorditas', cursive;
+    font-size: 1.5em;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 2em;
   }
 
   .sobre,
@@ -171,7 +176,7 @@ height: calc (100vh -4em- 48px -1.5em);
   }
 
   .portifolio h3 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto Slab', serif;
   color: whitesmoke;
 }
 
@@ -192,10 +197,10 @@ height: calc (100vh -4em- 48px -1.5em);
     perspective: 500px;
   }
 
-  @media (max-width 600px) {
+  @media (min-width 600px) {
     .img-portfolio {
       height: 84px;
-      width: 311px;
+      width: 50%;
     }
   }
 
